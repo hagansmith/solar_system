@@ -2,7 +2,7 @@
 
 const outputMars = () => {
 	let info = {
-	"Name": "Mars",
+		"Name": "Mars",
     "Year Discovered": 1990,
     "Mass": "3.285 × 10^23 kg",
     "Size": "1,516 mi",
@@ -11,7 +11,7 @@ const outputMars = () => {
     "Satellites": "Sure",
     "Visitors": "A couple rovers or something and Hauser"
 	};
-	
+
 	return info;
 };
 

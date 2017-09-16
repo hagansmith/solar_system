@@ -2,7 +2,7 @@
 
 const outputJupiter = () => {
 	let info = {
-	"Name": "Jupiter",
+		"Name": "Jupiter",
     "Year Discovered": 20,
     "Mass": "3.285 × 10^23 kg",
     "Size": "1,516 mi",
@@ -11,7 +11,7 @@ const outputJupiter = () => {
     "Satellites": "ummmm",
     "Visitors": "None"
 	};
-	
+
 	return info;
 };
 

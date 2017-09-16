@@ -3,7 +3,7 @@
 
 const outputEarth = () => {
 	let info = {
-	"Name": "Earth",
+		"Name": "Earth",
     "Year Discovered": 1862,
     "Mass": "3.285 × 10^23 kg",
     "Size": "1,516 mi",
@@ -16,12 +16,13 @@ const outputEarth = () => {
 };
 
 module.exports = outputEarth;
+
 },{}],2:[function(require,module,exports){
 "use strict";
 
 const outputJupiter = () => {
 	let info = {
-	"Name": "Jupiter",
+		"Name": "Jupiter",
     "Year Discovered": 20,
     "Mass": "3.285 × 10^23 kg",
     "Size": "1,516 mi",
@@ -30,11 +31,12 @@ const outputJupiter = () => {
     "Satellites": "ummmm",
     "Visitors": "None"
 	};
-	
+
 	return info;
 };
 
 module.exports = outputJupiter;
+
 },{}],3:[function(require,module,exports){
 "use strict";
 
@@ -44,13 +46,16 @@ const PlanetsGenerator = require('./planets');
 function outputTo(domElement) {
   let key = Object.keys(domElement);
 	let value = Object.values(domElement);
-	let string = `<div class="planet" id="${value["0"]}"><h2>${value["0"]}</h2></div>`;
-		for (var i = 0; i < key.length; i++){
+	let string = `<div class="planet col-md-4 text-center panel panel-default" id="${value["0"]}"><h2>${value["0"]}</h2>`;
+  string += `<ul class="list-unstyled">`;
+    for (var i = 0; i < key.length; i++){
 			let newString = "";
-			newString +=	 `<li>${key[i]}: ${value[i]}</li>`;	
+			newString +=	 `<li>${key[i]}: ${value[i]}</li>`;
 			string += newString;
-		}	
-		document.getElementById("planets").innerHTML += string;
+		}
+  string += `</ul>`;
+  string += `</div>`;
+	document.getElementById("planets").innerHTML += string;
 }
 
 outputTo(PlanetsGenerator.mercury());
@@ -61,12 +66,13 @@ outputTo(PlanetsGenerator.jupiter());
 outputTo(PlanetsGenerator.saturn());
 outputTo(PlanetsGenerator.uranus());
 outputTo(PlanetsGenerator.neptune());
+
 },{"./planets":7}],4:[function(require,module,exports){
 "use strict";
 
 const outputMars = () => {
 	let info = {
-	"Name": "Mars",
+		"Name": "Mars",
     "Year Discovered": 1990,
     "Mass": "3.285 × 10^23 kg",
     "Size": "1,516 mi",
@@ -75,11 +81,12 @@ const outputMars = () => {
     "Satellites": "Sure",
     "Visitors": "A couple rovers or something and Hauser"
 	};
-	
+
 	return info;
 };
 
 module.exports = outputMars;
+
 },{}],5:[function(require,module,exports){
 "use strict";
 
@@ -104,20 +111,21 @@ module.exports = outputMercury;
 
 const outputNeptune = () => {
 	let info = {
-	"Name": "Neptune",
+		"Name": "Neptune",
     "Year Discovered": 2022,
-    "Mass": "3.285 × 10^23 kg", 
+    "Mass": "3.285 × 10^23 kg",
     "Size": "1,516 mi",
     "Distance from the Sun": "Too far to count",
     "Atmosphere Composition": "Rocks",
     "Satellites": "None",
     "Visitors": "None"
 	};
-	
+
 	return info;
 };
 
 module.exports = outputNeptune;
+
 },{}],7:[function(require,module,exports){
 "use strict";
 
@@ -140,56 +148,59 @@ module.exports = planetsGenerator;
 
 const outputSaturn = () => {
 	let info = {
-	"Name": "Saturn",
+		"Name": "Saturn",
     "Year Discovered": 1882,
-    "Mass": "3.285 × 10^23 kg", 
+    "Mass": "3.285 × 10^23 kg",
     "Size": "1,516 mi",
     "Distance from the Sun": "35.98 million mi",
     "Atmosphere Composition": "Salty ice",
-    "Satellites": "I think theres one crashing into the atmosphere any day now",
+    "Satellites": "I think there's one crashing into the atmosphere any day now.",
     "Visitors": "None"
 	};
-	
+
 	return info;
 };
 
 module.exports = outputSaturn;
+
 },{}],9:[function(require,module,exports){
 "use strict";
 
 const outputUranus = () => {
 	let info = {
-	"Name": "Uranus",
+		"Name": "Uranus",
     "Year Discovered": 1222,
-    "Mass": "3.285 × 10^23 kg", 
+    "Mass": "3.285 × 10^23 kg",
     "Size": "1,516 mi",
     "Distance from the Sun": "35.98 million mi",
     "Atmosphere Composition": "Rocks",
     "Satellites": "None",
     "Visitors": "None"
 	};
-	
+
 	return info;
 };
 
 module.exports = outputUranus;
+
 },{}],10:[function(require,module,exports){
 "use strict";
 
 const outputVenus = () => {
 	let info = {
-	"Name": "Venus",
+		"Name": "Venus",
     "Year Discovered": 1992,
-    "Mass": "3.285 × 10^23 kg", 
+    "Mass": "3.285 × 10^23 kg",
     "Size": "1,516 mi",
     "Distance from the Sun": "35.98 million mi",
     "Atmosphere Composition": "Rocks",
     "Satellites": "None",
     "Visitors": "None"
 	};
-	
+
 	return info;
 };
 
 module.exports = outputVenus;
+
 },{}]},{},[3]);
