@@ -3,12 +3,12 @@
 const outputJupiter = () => {
 	let info = {
 	"Name": "Jupiter",
-    "Year_Discovered": 1992,
+    "Year Discovered": 20,
     "Mass": "3.285 × 10^23 kg",
     "Size": "1,516 mi",
-    "Sun_Distance": "35.98 million mi",
-    "Atmosphere_Composition": "Rocks",
-    "Satellites": "None",
+    "Distance from the Sun": "35.98 million mi",
+    "Atmosphere Composition": "Beans",
+    "Satellites": "ummmm",
     "Visitors": "None"
 	};
 	

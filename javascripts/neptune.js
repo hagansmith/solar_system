@@ -3,11 +3,11 @@
 const outputNeptune = () => {
 	let info = {
 	"Name": "Neptune",
-    "Year_Discovered": 1992,
+    "Year Discovered": 2022,
     "Mass": "3.285 × 10^23 kg", 
     "Size": "1,516 mi",
-    "Sun_Distance": "35.98 million mi",
-    "Atmosphere_Composition": "Rocks",
+    "Distance from the Sun": "Too far to count",
+    "Atmosphere Composition": "Rocks",
     "Satellites": "None",
     "Visitors": "None"
 	};

@@ -4,13 +4,13 @@
 const outputEarth = () => {
 	let info = {
 	"Name": "Earth",
-    "Year_Discovered": 1992,
+    "Year Discovered": 1862,
     "Mass": "3.285 × 10^23 kg",
     "Size": "1,516 mi",
-    "Sun_Distance": "35.98 million mi",
-    "Atmosphere_Composition": "Rocks",
-    "Satellites": "None",
-    "Visitors": "None"
+    "Distance from the Sun": "35.98 million mi",
+    "Atmosphere Composition": "Carbon Emmissions",
+    "Satellites": "A whole bunch and some space junk",
+    "Visitors": "Millions"
 	};
     return info;
 };
@@ -22,12 +22,12 @@ module.exports = outputEarth;
 const outputJupiter = () => {
 	let info = {
 	"Name": "Jupiter",
-    "Year_Discovered": 1992,
+    "Year Discovered": 20,
     "Mass": "3.285 × 10^23 kg",
     "Size": "1,516 mi",
-    "Sun_Distance": "35.98 million mi",
-    "Atmosphere_Composition": "Rocks",
-    "Satellites": "None",
+    "Distance from the Sun": "35.98 million mi",
+    "Atmosphere Composition": "Beans",
+    "Satellites": "ummmm",
     "Visitors": "None"
 	};
 	
@@ -67,13 +67,13 @@ outputTo(PlanetsGenerator.neptune());
 const outputMars = () => {
 	let info = {
 	"Name": "Mars",
-    "Year_Discovered": 1992,
+    "Year Discovered": 1990,
     "Mass": "3.285 × 10^23 kg",
     "Size": "1,516 mi",
-    "Sun_Distance": "35.98 million mi",
-    "Atmosphere_Composition": "Rocks",
-    "Satellites": "None",
-    "Visitors": "None"
+    "Distance from the Sun": "35.98 million mi",
+    "Atmosphere Composition": "Rock candy",
+    "Satellites": "Sure",
+    "Visitors": "A couple rovers or something and Hauser"
 	};
 	
 	return info;
@@ -105,11 +105,11 @@ module.exports = outputMercury;
 const outputNeptune = () => {
 	let info = {
 	"Name": "Neptune",
-    "Year_Discovered": 1992,
+    "Year Discovered": 2022,
     "Mass": "3.285 × 10^23 kg", 
     "Size": "1,516 mi",
-    "Sun_Distance": "35.98 million mi",
-    "Atmosphere_Composition": "Rocks",
+    "Distance from the Sun": "Too far to count",
+    "Atmosphere Composition": "Rocks",
     "Satellites": "None",
     "Visitors": "None"
 	};
@@ -141,12 +141,12 @@ module.exports = planetsGenerator;
 const outputSaturn = () => {
 	let info = {
 	"Name": "Saturn",
-    "Year_Discovered": 1992,
+    "Year Discovered": 1882,
     "Mass": "3.285 × 10^23 kg", 
     "Size": "1,516 mi",
-    "Sun_Distance": "35.98 million mi",
-    "Atmosphere_Composition": "Rocks",
-    "Satellites": "None",
+    "Distance from the Sun": "35.98 million mi",
+    "Atmosphere Composition": "Salty ice",
+    "Satellites": "I think theres one crashing into the atmosphere any day now",
     "Visitors": "None"
 	};
 	
@@ -160,11 +160,11 @@ module.exports = outputSaturn;
 const outputUranus = () => {
 	let info = {
 	"Name": "Uranus",
-    "Year_Discovered": 1992,
+    "Year Discovered": 1222,
     "Mass": "3.285 × 10^23 kg", 
     "Size": "1,516 mi",
-    "Sun_Distance": "35.98 million mi",
-    "Atmosphere_Composition": "Rocks",
+    "Distance from the Sun": "35.98 million mi",
+    "Atmosphere Composition": "Rocks",
     "Satellites": "None",
     "Visitors": "None"
 	};
@@ -179,11 +179,11 @@ module.exports = outputUranus;
 const outputVenus = () => {
 	let info = {
 	"Name": "Venus",
-    "Year_Discovered": 1992,
+    "Year Discovered": 1992,
     "Mass": "3.285 × 10^23 kg", 
     "Size": "1,516 mi",
-    "Sun_Distance": "35.98 million mi",
-    "Atmosphere_Composition": "Rocks",
+    "Distance from the Sun": "35.98 million mi",
+    "Atmosphere Composition": "Rocks",
     "Satellites": "None",
     "Visitors": "None"
 	};
