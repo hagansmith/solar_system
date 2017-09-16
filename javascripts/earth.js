@@ -2,7 +2,7 @@
 
 const outputEarth = () => {
 	let info = {
-	"Name": "Earth",
+		"Name": "Earth",
     "Year Discovered": 1862,
     "Mass": "3.285 × 10^23 kg",
     "Size": "1,516 mi",
